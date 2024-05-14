@@ -12,8 +12,7 @@ const en = {
     },
     Thinking: "Thinking…",
     InputMobile: "Enter to send",
-    Input:
-      "Enter to send, Shift + Enter to wrap, enter URLs to add a PDF or HTML document to the context",
+    Input: "Enter to send, Shift + Enter to wrap",
     Send: "Send",
     IsContext: "Contextual Prompt",
     LoadingURL: "Loading content...",
@@ -137,7 +136,7 @@ const en = {
   },
 
   Welcome: {
-    Title: "Chat LlamaIndex",
+    Title: "Welcome to Medaica FAQ",
     SubTitle: "Create chat bots that know your data",
     Quote:
       "“This tool has saved me countless hours of work and helped me apply AI features to my work faster than ever before.”",
