@@ -24,7 +24,7 @@ export function SideBar(props: { className?: string }) {
             <div>
               <Typography.H1>{Locale.Welcome.Title}</Typography.H1>
               <div className="text-sm text-muted-foreground">
-                {Locale.Welcome.SubTitle}
+                Use the form on the right to ask questions about Medaica.
               </div>
             </div>
             {/* <ThemeToggle /> */}
@@ -33,7 +33,7 @@ export function SideBar(props: { className?: string }) {
         </div>
 
         <div className="flex items-center justify-between">
-          <Button
+          {/* <Button
             variant="secondary"
             size="icon"
             onClick={() => {

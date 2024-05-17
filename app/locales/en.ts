@@ -139,6 +139,7 @@ const en = {
     Title: "Medaica",
     SubTitle: "Medaica grant writing tool.",
     Quote: "“”",
+
     LoginLinkedinTitle: "Login with LinkedIn",
   },
 };
