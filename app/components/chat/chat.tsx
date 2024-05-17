@@ -253,8 +253,8 @@ export function Chat() {
                             isUser
                               ? "ml-auto bg-primary text-primary-foreground"
                               : isMemory
-                              ? "italic text-secondary-foreground"
-                              : "bg-muted",
+                                ? "italic text-secondary-foreground"
+                                : "bg-muted",
                           )}
                         >
                           {message.urlDetail?.type &&
@@ -282,9 +282,7 @@ export function Chat() {
                         </div>
 
                         <div className="text-xs text-muted-foreground opacity-80 whitespace-nowrap text-right w-full box-border pointer-events-none z-[1]">
-                          {isContext
-                            ? Locale.Chat.IsContext
-                            : message.date?.toLocaleString()}
+                          {message.date?.toLocaleString()}
                         </div>
                       </div>
                     </HoverCardTrigger>

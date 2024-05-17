@@ -30,7 +30,7 @@ export interface ResponseMessage {
   content: string;
 }
 
-export const ALL_MODELS = ["gpt-4-turbo", "gpt-3.5-turbo"] as const;
+export const ALL_MODELS = ["gpt-4-turbo", "gpt-3.5-turbo", "gpt-4o"] as const;
 
 export type ModelType = (typeof ALL_MODELS)[number];
 
