@@ -136,8 +136,8 @@ const en = {
   },
 
   Welcome: {
-    Title: "Medaica",
-    SubTitle: "Medaica grant writing tool.",
+    Title: "Medaica Test",
+    SubTitle: "Medaica test grant writing tool.",
     Quote: "“”",
 
     LoginLinkedinTitle: "Login with LinkedIn",
