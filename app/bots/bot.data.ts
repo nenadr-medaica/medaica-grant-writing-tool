@@ -23,8 +23,8 @@ export const DEMO_BOTS: DemoBot[] = [
   {
     id: "2",
     avatar: "1f916",
-    name: "Medaica",
-    botHello: "Hello! How can I help you?",
+    name: "Medaica Nenad",
+    botHello: "Hello Nenad! How can I help you?",
     context: [
       {
         role: "system",
